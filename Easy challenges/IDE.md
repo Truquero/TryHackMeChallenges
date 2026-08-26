@@ -22,6 +22,12 @@ This information is important because now we know is name and that the password 
 
 So we know is name but not the password but is no default, for this problem Hydra will help us. I pass Hydra the IP and a rockyou.txt for the password with this command ` `, and it gave me that the password is `password`. We enter with this credentials and we are in. 
 
------------Still in progress---------
+In the page we do not have anything of value, but know we know the user and password, so we go to the intenet to know exploits on the application Codiac. We encounter that it have vulnerabilities and we focus on CVE-2018-14009. We download the vulnerability which is a code in python and we run it and we are in the machine. We naviagte though the files to go to the Desktop of the user, when we reached the folder we do a `ls -la` and we encounter the test that contains the answer to the question of the challenge, but it cannot be opened. However there is something useful here on the desktop and it is the bash_history, so we open the file and inside is a command to an sql to save his user and password.
+
+So now with this information we go to ssh to enter as `drac` with the password `Th3dRaCULa1sR3aL`. And now we can see what is inside `user.txt`.
+
+With that part made now we need to escalate privileges
+
+-----Under Construction-----
 
 ## Conclusion
