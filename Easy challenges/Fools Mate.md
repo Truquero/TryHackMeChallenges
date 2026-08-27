@@ -8,7 +8,7 @@ Difficulty: Easy
 
 This challenges redirected you to a page where you can play chess. If you try to win by doing a checkmate the engine stop you before you can do it. The goal is to try and win the match.
 
-![Chess Board](../images/Captura%20de%20pantalla%202026-08-23%20141739.png) 
+![Chess Board](../images/1.png) 
 
 ## Vulnerability
 

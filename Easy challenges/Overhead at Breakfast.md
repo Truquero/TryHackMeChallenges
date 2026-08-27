@@ -16,7 +16,7 @@ If we search on the internet about some application with this type of characteri
 
 In this web we can search up a link profile by a email, so we do that and moments before we have the profile of our person.
 
-![Profile](../images/Captura%20de%20pantalla%202026-08-24%20211439.png) 
+![Profile](../images/2.png) 
 
 ## Conclusion
 A very easy challenge that do not have difficulty at all. But seeing the walkthought video after I did this challenge I notice that they encode the email on a MD5 Hash. This hash act as a fingerprint so it fit why they thought of that but the page did not have the need to use MD5 to find the page and they just guess. I'm going to have a search if MD5 is a standart in the industry or if it is the most common hash for this type of situations.
